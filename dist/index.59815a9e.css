@@ -1,0 +1,71 @@
+.solar-system {
+  width: 600px;
+  height: 600px;
+  position: relative;
+}
+
+.sun {
+  z-index: 10;
+  background-color: #f03110;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.planet {
+  border-radius: 50%;
+  position: absolute;
+}
+
+#mercury {
+  background-color: #7f7f7f;
+  width: 10px;
+  height: 10px;
+}
+
+#venus {
+  background-color: tan;
+  width: 12px;
+  height: 12px;
+}
+
+#earth {
+  background-color: #1e90ff;
+  width: 14px;
+  height: 14px;
+}
+
+#mars {
+  background-color: #ff4500;
+  width: 10px;
+  height: 10px;
+}
+
+#jupiter {
+  background-color: #fc0;
+  width: 20px;
+  height: 20px;
+}
+
+#saturn {
+  background-color: tan;
+  width: 18px;
+  height: 18px;
+}
+
+#uranus {
+  background-color: #add8e6;
+  width: 16px;
+  height: 16px;
+}
+
+#neptune {
+  background-color: #4682b4;
+  width: 14px;
+  height: 14px;
+}
+/*# sourceMappingURL=index.59815a9e.css.map */
